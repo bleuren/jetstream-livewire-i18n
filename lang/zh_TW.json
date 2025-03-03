@@ -1,0 +1,16 @@
+{
+    "Welcome": "歡迎",
+    "Dashboard": "儀表板",
+    "Profile": "個人資料",
+    "Log Out": "登出",
+    "Log In": "登入",
+    "Register": "註冊",
+    "Email Address": "電子郵件地址",
+    "Password": "密碼",
+    "Confirm Password": "確認密碼",
+    "Remember Me": "記住我",
+    "Forgot your password?": "忘記密碼？",
+    "Already registered?": "已經註冊？",
+    "Reset Password": "重設密碼",
+    "Send Password Reset Link": "發送密碼重設連結"
+}
