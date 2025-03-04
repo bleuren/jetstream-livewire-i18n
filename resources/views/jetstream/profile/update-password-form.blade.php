@@ -8,13 +8,11 @@
     </x-slot>
 
     <x-slot name="form">
-        @if(Auth::user()->has_password)
         <div class="col-span-6 sm:col-span-4">
             <x-label for="current_password" value="{{ __('jetstream.profile.current_password') }}" />
             <x-input id="current_password" type="password" class="mt-1 block w-full" wire:model="state.current_password" autocomplete="current-password" />
             <x-input-error for="current_password" class="mt-2" />
         </div>
-        @endif
 
         <div class="col-span-6 sm:col-span-4">
             <x-label for="password" value="{{ __('jetstream.profile.new_password') }}" />
